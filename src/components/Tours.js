@@ -112,6 +112,7 @@ const Tours = () => {
                         <div
                            className="tour-info"
                            id={`tour-item-para-${tour.id}`}
+                           
                         >
                            {ids == tour.id
                               ? showMore
